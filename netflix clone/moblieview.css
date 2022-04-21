@@ -1,0 +1,68 @@
+.moblie-view{
+    width: 100%;
+    background-color: #000;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+}
+.moblie-view article{
+    color: white;
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+.moblie-view article .moblie-view-container{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#mobile{
+    width: 505px;
+    height: 379px;
+}
+section article .download{
+    background-color: #000;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    height: 90px;
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+section article .download img{
+    height: 80px;
+    padding: 6px;
+    width: 60px;
+}
+section article .download .mobile-context{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+section article .download .mobile-context #down{
+    color: blue;
+}
+section article .download .mobile-context .giffy{
+    height: 50px;
+}
+.moblie-view article .textpart{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+section article .textpart h1{
+    font-size: 50px;
+}
+section article .textpart h2{
+    font-weight: 100;
+}
+.children{
+    border-bottom: none;
+}

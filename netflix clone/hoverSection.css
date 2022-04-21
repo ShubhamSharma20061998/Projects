@@ -1,0 +1,61 @@
+.hover-sec{
+    width: 100%;
+    background-color: black;
+    padding: 80px;
+    border-bottom: 8px solid #222;
+    border-top:8px solid #222;
+}
+.hover-sec-container
+{
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: black; */
+
+}
+section .hover-sec-container button{
+    width: 100%;
+    background-color: #303030;
+    height: 75px;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 15px;    
+}
+section .hover-sec-container .hoverEffect
+{
+    margin-bottom: 10px;
+}
+section .hover-sec-container .hoverEffect:hover .Hover-Content
+{
+    display: block;
+}
+section .hover-sec-container .Hover-Content
+{
+    background-color: #303030;
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display: none;
+}
+#hover-sec-heading
+{
+    display: flex;
+    justify-content: center;
+    font-size:xxx-large;
+    font-weight:600;
+    color: white; 
+    margin-bottom: 50px;
+}
+section .hover-sec-container .Hover-Content p{
+    font-size: 25px;
+    padding: 20px 30px;
+}
+#email-hover
+{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}

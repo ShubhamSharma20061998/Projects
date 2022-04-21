@@ -1,0 +1,33 @@
+.footer
+{
+    background-color: black;
+    width: 100%;
+    padding: 70px 0px;
+    color: grey;
+}
+.footer article
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    color: grey;
+}
+.footer article ul li a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+.footer article ul
+{
+    list-style-type: none;
+}
+.footer article ul li
+{
+    padding: 10px;
+}
+.footer p{
+    margin-left: 394px;
+    margin-bottom: 15px
+}
