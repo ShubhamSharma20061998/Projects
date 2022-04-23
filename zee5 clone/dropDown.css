@@ -1,0 +1,64 @@
+
+.drop-container
+{
+    z-index: 2;
+    position: absolute;
+    background-color: black;
+    margin:auto;
+    width: 130vh;
+    display: none;
+    top: 55px;
+    left: 130px;
+    padding: 20px;
+}
+.drop-container .pics
+{
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.pics img
+{
+    border-radius: 10px;
+    width: 90%;
+}
+.drop-container .content
+{
+    padding:20px;
+    width: 50%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.drop-container .content a
+{
+    padding: 10px;
+    color: #828282;
+    font-weight: 500;
+    font-size: 12px;
+}
+.active
+{
+    background-color: #2b2b2b;
+}
+.drop-container .content a:hover:not(.active)
+{
+    background-color: #2b2b2b;
+}
+.drop:hover .drop-container
+{
+    display: flex;
+}
+.content2
+{
+    row-gap: 20px;
+}
+.card-button{
+
+}
+.card-img-top1 img:hover{
+    border: 20px;
+}
+.card:hover{
+    transform: scale(1.2);
+}

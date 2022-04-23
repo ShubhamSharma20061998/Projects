@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.Carousel
+{
+    width: 100%;
+}
+.Carousel #carouselExampleIndicators
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel-inner a button
+{
+    padding: 8px 15px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.Carousel h2
+{
+    text-align: left;
+    /* margin: auto; */
+}
+.carousel-button
+{
+    float: left;
+}

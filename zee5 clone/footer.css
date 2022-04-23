@@ -1,0 +1,119 @@
+/* footer starts */
+
+.footer-holder
+{
+    margin-top: 300px;
+    border-top: 1px solid grey;
+    padding: 30px 90px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.social
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.download-apps
+{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.social-links
+{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.social-icons
+{
+    background: hsla(0,0%,100%,.08);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsla(0,0%,100%,.05);
+}
+.blue:hover
+{
+    background-color: rgb(54, 96, 173);
+}
+.pink:hover
+{
+    background-color: hotpink;
+}
+.light-blue:hover
+{
+    background-color: rgb(49, 143, 180);
+}
+.red:hover
+{
+    background-color: crimson;
+}
+.social-icons a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.social-icons a:hover
+{
+    color: white;
+}
+.general-links
+{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.general-links a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    border-right: 1px solid;
+    padding-right: 20px;
+}
+.general-links a:last-child
+{
+    border: none;
+}
+.zee-links
+{
+    display: flex;
+    width: 95%;
+}
+.row
+{
+    display: flex;
+    row-gap: 10px;
+}
+.link-white
+{
+    color: white !important;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.row a
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+.row a:hover
+{
+    color: #a785ff;
+}
+.copyright
+{
+    font-size: 11px;
+    color: gray;
+    line-height: normal;
+}
+/* footer ends */
